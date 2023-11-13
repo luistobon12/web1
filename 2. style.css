@@ -1,0 +1,54 @@
+
+body{
+  background-image: url(Imagen/img2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: red;
+}
+
+  .boton{
+    display: block;
+    width: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 50px 50PX;
+    padding: 15px 40px;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+  }
+  .boton:hover {
+    background-color: black;
+  }
+
+.direcc{
+  float: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align-last: left;
+  text-decoration: none;
+  color: black;
+  font-size: 20PX;
+  
+}
+
+.direcc:hover {
+  background-color:yellow;
+}
+
+img{
+  display: block;
+  padding: 40px 250px;
+  width: 600px;
+  height: 300px;
+  }

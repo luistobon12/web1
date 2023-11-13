@@ -1,0 +1,69 @@
+
+body{
+  background-image: url(Imagen/img3.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: red;
+}
+
+  a{
+    display: block;
+    width: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 50px 50PX;
+    padding: 15px 40px;
+    background-color: purple;
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+  }
+
+ .boton:hover{
+  background-color: coral;
+ }
+ 
+  h2{
+    display: flex;
+    font-size: 30px;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: red;
+    text-align-last: left;
+    padding: 0px 1px;
+  }
+
+  .lista{
+  float: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  text-align-last: left;
+  padding: 0px 10px;
+  
+}
+
+.lista2{
+  float: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  text-align-last: left;
+  padding: 0px 180px;
+}
+
+.lista3{
+  float: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  text-align-last: left;
+  padding: 0px 10px;
+}
